@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  ".dotfiles and $PATH"
+title:  "Understanding $PATH on OS X"
 date:   2013-05-12 11:44:14
 categories: jekyll update
 ---
@@ -16,6 +16,12 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+{% highlight bash %}
+echo $PATH
+
+echo $path | tr ':' '\n'
 {% endhighlight %}
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
