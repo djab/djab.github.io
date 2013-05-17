@@ -60,10 +60,14 @@ ul.posts span {
 /*
 /*****************************************************************************/
 
+.container {
+  margin: 0 2em;
+}
+
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  max-width: 42em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
